@@ -1,0 +1,68 @@
+
+header {
+    background-color: #792ab7;
+}
+
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#792ab7;
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form label{
+    margin-left: 60px;
+}
+
+form input{
+    margin: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 50px;display: inline-block;
+}
+#boton{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+
+#condiciones{
+    width: 20px;
+    
+}
+h2{
+    text-align: center;
+}
+    
+.flex-containerChex{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: start;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    color: white;
+}
