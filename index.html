@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineMagia</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.principal.css">
+    <!--iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!--Autores-->
+    <meta name="author" content="Estrada Nazarena, Siarez Esteban, Tejerina Carolina">
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo de CineMagia"></a>
+        </div>
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#novedades">Novedades</a></li>
+                <li><a href="#encuenstas">Encuestas</a></li>
+                <li class="buscar"> <i class="fas fa-search"></i>
+                    <a href="#">Buscar</a>
+                </li>
+                <li><a href="html/login.html">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="flex-container">
+        <!--Principal-->
+        <main>
+            <!--Nuevos estrenos-->
+            <section class="section-estrenos">
+                <div class="subtitulo">
+                    <h2>Nuevos Estrenos</h2>
+                </div>
+                <figure class="flex-containerFigure">
+                    <article class="article-container">
+                        <a href="#"><img src="img/principal/stitch.jpg" alt="imagen de pelicula Lilo y Stitch"></a>
+                        <p>Lilo y Stitch</p>
+                    </article>
+                    <article class="article-container">
+                        <a href="#"><img src="img/principal/megan.jpg" alt="imagen de pelicula Megan"></a>
+                        <p>Megan 2.0</p>
+                    </article>
+                    <article class="article-container">
+                        <a href="#"><img src="img/principal/entrenar.jpg"
+                                alt="imagen de pelicula como entrenar a tu dragon"></a>
+                        <p>Como entrenar a tu drag&oacute;n</p>
+                    </article>
+                    <article class="article-container">
+                        <a href="#"><img src="img/principal/f1.jpeg" alt="imagen de pelicula"></a>
+                        <p>F1 - La pelicula</p>
+                    </article>
+                </figure>
+            </section>
+
+            <!--Servicio-->
+            <section class="section-servicio" id="servicios">
+                <div class="subtitulo">
+                    <h2>Explorar emociones</h2>
+                </div>
+
+                <div class="emotions">
+                    <ul class="item">
+                        <li><a class="content alegria" href="html/alegria.html">Alegr&iacute;a</a></li>
+                        <li><a class="content ira" href="html/ira.html">Ira</a></li>
+                        <li><a class="content calma" href="html/calma.html">Calma</a></li>
+                        <li><a class="content amor" href="html/amor.html">Amor</a></li>
+                    </ul>
+                    <ul class="item">
+                        <li><a class="content miedo" href="html/miedo.html">Miedo</a></li>
+                        <li><a class="content tristeza" href="html/tristeza.html">Tristeza</a></li>
+                        <li><a class="content asco" href="html/asco.html">Asco</a></li>
+                        <li><a class="content sorpresa" href="html/sorpresa.html">Sorpresa</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--Novedades-->
+            <section class="section-novedades">
+                <div class="subtitulo">
+                    <h2 id="novedades">Noticias del mundo del cine</h2>
+                </div>
+                <div class="descripcion">
+                    <p>Las emociones detr&aacute;s de la pantalla grande.</p>
+                    <p>Porque el cine no solo se ve... se siente.</p>
+                </div>
+
+                <!--cuadros-->
+                <section class="section-cuadros">
+                    <article class="article-novedades">
+                        <div class="titleArticle">
+                            <h3>La emoci&oacute;n de la semana:</h3>
+                        </div>
+                        <div class="subtituloArticle">
+                            <h4>TRISTEZA</h4>
+                        </div>
+                        <div class="parrafos">
+                            <p>"Inside out 2" revive los miedos y angustias de la adolescencia con nuevos
+                                personajes que rompen el coraz&oacute;n del p&uacute;blico. <br>
+                                Psic&oacute;logos destacan su valor educsativo y emocional. <br>
+                                P&uacute;blico adulto: "Llor&eacute; m&aacute;s que mis hijos".
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="article-novedades">
+                        <div class="titleArticle">
+                            <h3>Pr&oacute;ximas emociones en cartelera:</h3>
+                        </div>
+
+                        <div class="parrafos">
+                            <p>Ternura:Marcel the Shell with Shoes On <br>
+                                Tensi&oacute;n: Speak No Evil <br>
+                                Melancol&iacute;a All of Us Strangers. <br>
+                                Felicidad: El Peor Equipo del Mundo (comedia uruguaya)</p>
+                        </div>
+
+                    </article>
+                </section>
+
+                <div class="subtituloSection">
+                    <h2>Rangking emocional del mes</h2>
+                </div>
+                <div class="descripcion">
+                    <p>Top 5 pel&iacute;culas que m&aacute;s hicieron llorar,gritar, re&iacute;r o reflexionar al
+                        p&uacute;blico. </p>
+                </div>
+
+                <!--tabla-->
+                <div id="tabla">
+                    <table>
+                        <tr>
+                            <th>&#129351;Call me by Your Name</th>
+                            <td id="tristeza">Tristeza</td>
+                        </tr>
+                        <tr>
+                            <th>&#129352; Mindsomar</th>
+                            <td id="incomodidad">Incomodidad</td>
+                        </tr>
+                        <tr>
+                            <th>&#129353; Barbie</th>
+                            <td id="nostalgia">Nostalgia</td>
+                        </tr>
+                        <tr>
+                            <th>&#127941; Poor Things</th>
+                            <td id="extrañeza">Extrañeza</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <!--Encuestas-->
+            <section class="section-encuesta">
+                <article class="encuestas encuesta1">
+                    <div class="subtitulo">
+                        <h2 id="encuenstas">Qu&eacute; emoci&oacute;n busc&aacute;s cuando ves una pelicula</h2>
+                    </div>
+
+                    <div class="pregunta">
+                        <p>
+                            ¿Cuando abr&iacute;s una plataforma o entr&aacute;s al cine¿Qu&eacute; quer&eacute;s sentir?
+                        </p>
+                    </div>
+
+
+                    <form action="#" method="get">
+
+                        <label for="alegria">
+                            <input type="checkbox" name="alegria" id="alegria">
+                            <span id="encuesta__alegria">&#x1F601; Alegria</span>
+                            (Quiero pasarla bien y reirme)
+                        </label>
+
+                        <label for="tristeza">
+                            <input type="checkbox" name="tristeza" id="tristeza">
+                            <span id="encuesta__tristeza">&#x1F622; Tristeza</span>
+                            (Busco llorar y conectar emocionalmente)
+                        </label>
+
+                        <label for="miedo">
+                            <input type="checkbox" name="miedo" id="miedo">
+                            <span id="encuesta__miedo">&#x1F628; Miedo</span>
+                            (Necesito una dosis de adrenalina)
+                        </label>
+
+                        <label for="romance">
+                            <input type="checkbox" name="romance" id="romance">
+                            <span id="encuesta__romance">&#x1F60D; Romance</span>
+                            (Quiero algo que me haga suspirar)
+                        </label>
+
+                        <label for="sorpresa">
+                            <input type="checkbox" name="sorpresa" id="sorpresa">
+                            <span id="encuesta__sorpresa">&#x1F92F; Sorpresa</span>
+                            (Que me explote la cabeza con un giro)
+                        </label>
+
+                        <label for="calma">
+                            <input type="checkbox" name="calma" id="calma">
+                            <span id="encuesta__calma">&#128578; Calma</span>
+                            (Pel&iacute;culas tranquilas, tipo "feel-good")
+                        </label>
+
+                        <label for="otro">Otra emoci&oacute;n:
+                            <input class="respuesta" type="text" name="otro" id="otro" placeholder="respuesta libre">
+                        </label>
+
+                        <input type="submit" value="Enviar" name="enviar" id="enviar">
+                    </form>
+                </article>
+            </section>
+            <section class="section-encuesta2 ">
+
+                <article class="encuestas encuesta2">
+                    <div class="subtitulo">
+                        <h2>Contanos:¿Qu&eacute; pel&iacute;cula te rompi&oacute; o te elev&oacute; emocionalmente?</h2>
+                    </div>
+                    <div class="pregunta">
+                        <p>¿Qu&eacute; emoci&oacute;n sentiste con m&aacute;s fuerza en una pel&iacute;cula?</p>
+                    </div>
+
+                    <form action="#" method="post">
+                        <label for="opciona">
+                            <input type="checkbox" name="opciona" id="opciona">
+                            Llor&eacute; como nunca
+                        </label>
+                        <label for="opcionb">
+                            <input type="checkbox" name="opcionb" id="opcionb">
+                            Me dio miedo real
+                        </label>
+                        <label for="opcionc">
+                            <input type="checkbox" name="opcionc" id="opcionc">
+                            Me enamor&eacute;
+                        </label>
+                        <label for="opciond">
+                            <input type="checkbox" name="opciond" id="opciond">
+                            No superi el final
+                        </label>
+                        <label for="opcione">
+                            <input type="checkbox" name="opcione" id="opcione">
+                            Me re&iacute; sin parar
+                        </label>
+                        <label for="opcionf">
+                            <input type="checkbox" name="opcionf" id="opcionf">
+                            Me dio asco o incomodidad
+                        </label>
+                        <label for="opciong">
+                            <input type="checkbox" name="opciong" id="opciong">
+                            Me hizo enojar fuerte
+                        </label>
+                        <label for="opcionh">
+                            <input type="checkbox" name="opcionh" id="opcionh">
+                            Me hizo enojar fuerte
+                        </label>
+                        <label for="opcioni">
+                            <input type="checkbox" name="opcioni" id="opcioni">
+                            Me relaj&oacute;
+                        </label>
+                        <input type="submit" value="Enviar" name="enviar" id="enviar">
+                    </form>
+                </article>
+            </section>
+
+            <!--Desarrolladores-->
+            <section class="section-developers">
+
+                <div class="subtitulo">
+                    <h2>Developers:</h2>
+                </div>
+
+                <article class="developers developer1">
+                    <img src="img/principal/felicidad.jpg" alt="Foto de Carolina">
+                    <div class="info">
+                        <h2>Tejerina Carolina Abril</h2>
+                        <h3>Programaci&oacute;n I- Lic. DyPM</h3>
+                        <p>Estilos y experiencia de usuario </p>
+                    </div>
+                </article>
+
+                <article class="developers developer2">
+                    <div class="info">
+                        <h2>Estrada Nazarena Adela</h2>
+                        <h3>Programaci&oacute;n I- Lic. DyPM</h3>
+                        <p>Diseño gráfico y maquetación</p>
+                    </div>
+                    <img src="img/principal/desagrado.jpg" alt="Foto de Nazarena">
+                </article>
+
+                <article class="developers developer3">
+                    <img src="img/principal/ansiedad.jpeg" alt="Foto de Esteban">
+                    <div class="info">
+                        <h2>Siarez Esteban Sahid</h2>
+                        <h3>Programaci&oacute;n I- Lic. DyPM</h3>
+                        <p>Programaci&oacute;n y navegaci&oacute;n</p>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <!--Publicidad-->
+        <aside class="publicidad">
+            <article class="publicidad__items pochoclos">
+                <img src="img/principal/pochoclos.jpg" alt="pochoclos">
+                <h3>30% OFF en toda tu compra !!</h3>
+                <p>(valido desde 01/06 hasta el 30/06)</p>
+            </article>
+            <article class="publicidad__items starlink">
+                <img src="img/principal/starlink.png" alt="">
+            </article>
+            <article class="publicidad__items telecom">
+                <img src="img/principal/telecom.gif" alt="doritos">
+            </article>
+            <article class="publicidad__items">
+                <img src="img/principal/lysoform.jpeg" alt="doritos">
+            </article>
+            <article class="publicidad__items">
+                <img src="img/principal/cocacola.jpeg" alt="doritos">
+                <h3>30% OFF en toda tu compra !!</h3>
+                <p>(valido desde 01/06 hasta el 30/06)</p>
+            </article>
+            <article class="publicidad__items">
+                <img src="img/principal/tuyMate.jpg" alt="doritos">
+            </article>
+            <article class="publicidad__items">
+                <img src="img/principal/doritos.jpg" alt="doritos">
+                <h3>30% OFF en toda tu compra !!</h3>
+                <p>(valido desde 01/06 hasta el 30/06)</p>
+            </article>
+            <article class="publicidad__items">
+                <img src="img/principal/personalFlow.gif" alt="doritos">
+            </article>
+
+            <article class="publicidad__items">
+                <img src="img/principal/crema.png" alt="doritos">
+            </article>
+
+        </aside>
+    </div>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p>CineMagia@gmail.com</p>
+        <p>© 2025 CineMagia Direct, ARG. Todos los derechos reservados.</p>
+        <div class="ubicacion">
+            <a href="https://maps.app.goo.gl/S29p35PRxKCo9YWJA" target="_blank"><i class="fas fa-map-marker-alt"></i>
+                Abel Bazán y Bustos 750, F5300 La Rioja</a>
+        </div>
+        <div class="redesSociales">
+            <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
